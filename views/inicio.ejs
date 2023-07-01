@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Title</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+
+
+
+        https://getuikit.com/docs/drop
+        https://geekflare.com/best-css-frameworks/
+        <!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.22/dist/css/uikit.min.css" />
+
+
+    </head>
+    <body>
+        <%- include('nambar/nav')%>
+
+
+        <div class="uk-position-relative uk-light" uk-slideshow>
+
+            <ul class="uk-slideshow-items">
+                <li>
+                    <img src="https://source.unsplash.com/featured/1800x720" alt="" uk-cover>
+                </li>
+                <li>
+                    <img src="https://source.unsplash.com/featured/1800x720" alt="" uk-cover>
+                </li>
+                <li>
+                    <img src="https://source.unsplash.com/featured/1800x720" alt="" uk-cover>
+                </li>
+            </ul>
+        
+            <div class="uk-position-bottom-center uk-position-small">
+                <ul class="uk-dotnav">
+                    <li uk-slideshow-item="0"><a href="#">Item 1</a></li>
+                    <li uk-slideshow-item="1"><a href="#">Item 2</a></li>
+                    <li uk-slideshow-item="2"><a href="#">Item 3</a></li>
+                </ul>
+            </div>
+        
+        </div>
+        <!---->
+
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-card-media-left uk-cover-container">
+                <img src="https://source.unsplash.com/featured/1800x720" alt="" uk-cover>
+                <canvas width="600" height="400"></canvas>
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">Media Left</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                <img src="https://source.unsplash.com/featured/1800x720" alt="" uk-cover>
+                <canvas width="600" height="400"></canvas>
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">Media Right</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.22/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.22/dist/js/uikit-icons.min.js"></script>
+    </body>
+</html>
